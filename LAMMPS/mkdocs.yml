@@ -1,0 +1,9 @@
+site_name: LAMMPS on Midlands+ HPC
+theme: cinder
+pages:
+    - LAMMPS:
+        - 'Overview': main.md
+        - 'Build LAMMPS': build.md
+        - 'Run LAMMPS': run.md
+        - 'Benchmarking': benchmarking.md
+    - About: about.md
