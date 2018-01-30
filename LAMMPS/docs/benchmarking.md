@@ -31,7 +31,8 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 <p style="font-size:85%;"><b>DPD:</b></p>
 <p style="font-size:85%;">The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
-whilst the plot on the right hand side is the scaled-size performance for runs with 18286 atoms/proc. Click on the picture for the large version.</p>
+whilst the plot on the right hand side is the scaled-size performance for runs with 18286 atoms/proc. <i>user-intel + Intel MKL</i> indicates the case that the Intel MKL Mersenne Twister random number generator (RNG) is used for DPD potential. 
+Click on the picture for the large version.</p>
 [<img src="../img/dpd_strong_perf.png" width="300" height="225">](../img/dpd_strong_perf.png) [<img src="../img/dpd_weak_perf.png" width="300" height="225">](../img/dpd_weak_perf.png)
 
 ------
