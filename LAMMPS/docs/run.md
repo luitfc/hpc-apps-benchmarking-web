@@ -1,10 +1,10 @@
 ### Run with the USER-INTEL package
 <p style="font-size:95%;">The [USER-INTEL](http://lammps.sandia.gov/doc/accelerate_intel.html) package is able to accelerate simulations on Intel CPUs by running in single, mixed, or double precision with vectorization. The styles currently supported by the USER-INTEL package are available [here](http://lammps.sandia.gov/doc/accelerate_intel.html). Simulations should be run with 1 MPI task per physical core, not hardware thread. 
-On the [compute partition](http://www.hpc-midlands-plus.ac.uk/user-support/quick-start/) of Midlands+ HPC, each computer node has 28 cores and each single core supports only 1 thread as the hardware supported multithreading (known as [Hyper-Threading](https://www.intel.co.uk/content/www/uk/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html)) has been disabled in default.</p>	
+On the [compute partition](http://www.hpc-midlands-plus.ac.uk/user-support/quick-start/) of HPC Midlands+, each computer node has 28 cores and each single core supports only 1 thread as the hardware supported multithreading (known as [Hyper-Threading](https://www.intel.co.uk/content/www/uk/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html)) has been disabled in default.</p>	
 
 <p style="font-size:95%;">The following commands are examples of running LAMMPS with the USER-INTEL package and different MPI&OMP configurations. 
 <i>-np</i> specifies the number of MPI ranks while <i>-ppn</i> indicates the number of MPI tasks per node. <i>lmp_exe</i> is the filename of the compiled LAMMPS executable file and <i>-sf intel</i> enables using the USER-INTEL package during your simulations. 
-<i>-pk intel 0</i> : don't use coprocessors as they are not available on Midlands+ HPC. <i>omp</i> specifies the number of the threads per physical core. This number should be set to 1 as the Hyper-Threading has been disabled, otherwise it can be 2 with which extra performance might be achieved.</p>
+<i>-pk intel 0</i> : don't use coprocessors as they are not available on HPC Midlands+. <i>omp</i> specifies the number of the threads per physical core. This number should be set to 1 as the Hyper-Threading has been disabled, otherwise it can be 2 with which extra performance might be achieved.</p>
 
 	$ mpirun -np 1 lmp_exe -sf intel -pk intel 0 omp 1 -in lmp.in          # 1 core; 1 MPI task in total
 	$ mpirun -np 28 -ppn 28 lmp_exe -sf intel -pk intel 0 omp 1 -in lmp.in # 1 node;  28 MPI tasks/node; 28 MPI tasks in total

@@ -1,4 +1,4 @@
-site_name: LAMMPS on Midlands+ HPC
+site_name: LAMMPS on HPC Midlands+
 theme: cinder
 pages:
     - LAMMPS:
