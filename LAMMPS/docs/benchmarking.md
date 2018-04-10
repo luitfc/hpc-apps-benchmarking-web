@@ -1,6 +1,5 @@
 ### Potentials
 
-
 The following potentials are used for benchmarking:
 
 * **in.intel.airebo** - Polyethylene benchmark with AIREBO
@@ -13,6 +12,7 @@ The following potentials are used for benchmarking:
 * **in.intel.tersoff** - Silicon benchmark with Tersoff
 * **in.intel.water** - Coarse-grain water benchmark using Stillinger-Weber
 
+------
 ### Benchmarking results
 
 In order to investigate the performance of different acceleration packages, the following four modes are used:
@@ -31,7 +31,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/airebo_strong_perf.png" width="300" height="225">](./img/airebo_strong_perf.png) [<img src="./img/airebo_weak_perf.png" width="300" height="225">](./img/airebo_weak_perf.png)
 
-
+------
 #### DPD
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -40,8 +40,7 @@ Click on the picture for the large version.
 
 [<img src="./img/dpd_strong_perf.png" width="300" height="225">](./img/dpd_strong_perf.png) [<img src="./img/dpd_weak_perf.png" width="300" height="225">](./img/dpd_weak_perf.png)
 
-
-
+------
 #### EAM
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -49,8 +48,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/eam_strong_perf.png" width="300" height="225">](./img/eam_strong_perf.png) [<img src="./img/eam_weak_perf.png" width="300" height="225">](./img/eam_weak_perf.png)
 
-
-
+------
 #### LC
 
 The plot on the left hand side below shows the performance for a fixed-size system (524288 atoms) scaling from 1 computer node to 10, 
@@ -58,7 +56,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/lc_strong_perf.png" width="300" height="225">](./img/lc_strong_perf.png) [<img src="./img/lc_weak_perf.png" width="300" height="225">](./img/lc_weak_perf.png)
 
-
+------
 #### LJ
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -66,8 +64,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/lj_strong_perf.png" width="300" height="225">](./img/lj_strong_perf.png) [<img src="./img/lj_weak_perf.png" width="300" height="225">](./img/lj_weak_perf.png)
 
-
-
+------
 #### RHODO
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -75,8 +72,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/rhodo_strong_perf.png" width="300" height="225">](./img/rhodo_strong_perf.png) [<img src="./img/rhodo_weak_perf.png" width="300" height="225">](./img/rhodo_weak_perf.png)
 
-
-
+------
 #### SW
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -84,8 +80,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/sw_strong_perf.png" width="300" height="225">](./img/sw_strong_perf.png) [<img src="./img/sw_weak_perf.png" width="300" height="225">](./img/sw_weak_perf.png)
 
-
-
+------
 #### TERSOFF
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
@@ -93,7 +88,7 @@ whilst the plot on the right hand side is the scaled-size performance for runs w
 
 [<img src="./img/tersoff_strong_perf.png" width="300" height="225">](./img/tersoff_strong_perf.png) [<img src="./img/tersoff_weak_perf.png" width="300" height="225">](./img/tersoff_weak_perf.png)
 
-
+------
 #### WATER
 
 The plot on the left hand side below shows the performance for a fixed-size system (512000 atoms) scaling from 1 computer node to 10, 
