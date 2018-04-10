@@ -1,13 +1,17 @@
 ### Download LAMMPS
 
 Download the latest stable version of LAMMPS from [this page](http://lammps.sandia.gov/download.html#tar).
- 
+
+------ 
+
 ### Untar LAMMPS
 
 ~~~
 $ tar -xf lammps.tar.gz
 ~~~
-	
+
+------
+
 ### Build auxiliary libraries for LAMMPS
 
 *Note:* if you use the packages listed below, the corresponding libraries that are located at *./lib/* must be built first. See more details [here](http://lammps.sandia.gov/doc/Section_start.html#start-3-3).
@@ -70,7 +74,7 @@ $ module load gcc/6.3.0/1
 $ make lib-voronoi args="-b"
 ~~~
 	
-#### 3.7 LINALG
+#### LINALG
 	
 ~~~
 $ cd ./lib/linalg/
@@ -123,7 +127,9 @@ $ module purge
 $ make lib-smd args="-b"	
 ~~~
 
-### 4. Install packages
+------
+
+### Install packages
 
 #### Install all packages including both standard and user-contributed packages
 		
@@ -159,6 +165,8 @@ $ make ps | grep "YES:"
 	Installed YES: package MANYBODY
 	......
 ~~~
+
+------
 
 ### Build LAMMPS
 
