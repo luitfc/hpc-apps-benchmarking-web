@@ -57,7 +57,9 @@ $MPI -np $MPI_TASKS -ppn $MPI_PER_NODE $LMP_BIN $LMP_ARGS
 	
 # more
 ~~~	
-	
+
+------
+
 ### Run with the USER-OMP package
 
 For styles that are not supported by the USER-INTEL package, alternatively the USER-OMP package can be used to speedup your simulations.
@@ -111,7 +113,9 @@ $MPI -np $MPI_TASKS -ppn $MPI_PER_NODE $LMP_BIN $LMP_ARGS
 	
 # more
 ~~~
-	
+
+------
+
 ### Run with the KOKKOS package
 
 Example commands:
