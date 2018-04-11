@@ -6,7 +6,7 @@ On the [compute partition](http://www.hpc-midlands-plus.ac.uk/user-support/quick
 
 The following commands are examples of running LAMMPS with the **USER-INTEL** package and different **MPI** and **OMP** configurations. 
 
-**-np** specifies the number of MPI ranks while **-ppn** indicates the number of MPI tasks per node. **lmp_exe<** is the filename of the compiled LAMMPS executable file and **-sf intel** enables using the USER-INTEL package during your simulations.
+**-np** specifies the number of MPI ranks while **-ppn** indicates the number of MPI tasks per node. **lmp_exe** is the filename of the compiled LAMMPS executable file and **-sf intel** enables using the USER-INTEL package during your simulations.
  
 **-pk intel 0** : don't use coprocessors as they are not available on HPC Midlands+. **omp** specifies the number of the threads per physical core. This number should be set to 1 as the Hyper-Threading has been disabled, otherwise it can be 2 with which extra performance might be achieved.
 
