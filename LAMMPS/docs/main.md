@@ -1,6 +1,6 @@
 ### LAMMPS
 
-LAMMPS (Large-scale Atomic/Molecular Massively Parallel Simulator) is a classical molecular dynamics code, and an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator. It has a nice collection of atom styles and force fields, and is capable of modelling systems with only a few particles up to millions or billions. 
+LAMMPS is a classical molecular dynamics code, and an acronym for Large-scale Atomic/Molecular Massively Parallel Simulator. It has a nice collection of atom styles and force fields, and is capable of modelling systems with only a few particles up to millions or billions. 
 
 LAMMPS is designed to run efficiently on single-processor desktop or shared-memory and distributed-memory parallel machines that support [MPI](https://www.open-mpi.org/) message-passing libraries. The LAMMPS code contains a large number of standard packages and user contributed packages including acceleration packages for improving LAMMPS performance for different classes of problems running on different kinds of hardware (multi-core CPUs, GPUs, and Intel Xeon Phi coprocessors). For full documentation visit the [official site](http://lammps.sandia.gov/doc/Manual.html).
 
