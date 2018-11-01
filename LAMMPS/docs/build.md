@@ -14,7 +14,7 @@ $ tar -xf lammps.tar.gz
 
 ### Build auxiliary libraries for LAMMPS
 
-*Note:* if you use the packages listed below, the corresponding libraries that are located at *./lib/* must be built first. See more details [here](http://lammps.sandia.gov/doc/Section_start.html#start-3-3).
+*Note:* if you use the packages listed below, the corresponding libraries that are located at *./lib/* must be built first. See more details [here](http://lammps.sandia.gov/doc/Section_start.html#start-3-3). Otherwise, go to next step.
 	
 ~~~
 KIM LATTE MEAM POEMS REAX VORONOI LINALG USER-ATC USER-AWPMD USER-COLVARS USER-QMMM USER-SMD
